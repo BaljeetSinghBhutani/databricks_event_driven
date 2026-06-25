@@ -56,7 +56,7 @@ orders_stage Delta Table
 Orders Target Load Notebook
         │
         ▼
-MERGE / UPSERT Logic
+   MERGE Logic
         │
         ▼
 orders_target Delta Table
