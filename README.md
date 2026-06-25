@@ -36,8 +36,8 @@ Responsibilities:
 
 - Reads data from the `orders_stage` table.
 - Creates the `orders_target` table if it does not exist.
-- Performs MERGE (UPSERT) operations into the target table.
-- Updates existing records and inserts new records.
+- Performs MERGE operations into the target table.
+- Delete existing records and insert all records.
 
 ## Data Flow
 
